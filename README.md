@@ -33,28 +33,26 @@ git clone https://github.com/<USERNAME>/Anime-DCGAN.git
 cd Anime-DCGAN
 ```
 
-##Install required packages:
-```bash
+2. **Install required packages:**
 
+```bash
 pip install tensorflow numpy matplotlib seaborn pillow
 ```
 
 
 
-##Dataset:
+3. **Dataset:**
 
-####Use the <a href="https://www.kaggle.com/splcher/animefacedataset">Kaggle Anime Face Dataset</a>.
+<b>Use the <a href="https://www.kaggle.com/splcher/animefacedataset">Kaggle Anime Face Dataset</a></b>
 
-####Upload the dataset to Google Colab or your local environment.
+4. **Upload the dataset to Google Colab or your local environment.**
 
-###Run the Notebook:
+5. **Run the Notebook**
 
-####Open DCGAN_Anime.ipynb in Colab.
 
-####Run all cells to train the model and generate sample images.
+6. **Using the Generator:**
+7. <b>After training, you can generate new images:</b>
 
-##Using the Generator:
-####After training, you can generate new images:
 ```bash
 
 from tensorflow.keras.models import load_model
