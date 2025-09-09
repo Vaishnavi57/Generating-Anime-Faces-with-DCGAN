@@ -31,25 +31,31 @@ This project implements a <b>Deep Convolutional Generative Adversarial Network (
 ```bash
 git clone https://github.com/<USERNAME>/Anime-DCGAN.git
 cd Anime-DCGAN
-Install required packages:
+```
+
+##Install required packages:
+```bash
 
 pip install tensorflow numpy matplotlib seaborn pillow
+```
 
 
-Dataset:
 
-Use the <a href="https://www.kaggle.com/splcher/animefacedataset">Kaggle Anime Face Dataset</a>.
+##Dataset:
 
-Upload the dataset to Colab or your local environment.
+####Use the <a href="https://www.kaggle.com/splcher/animefacedataset">Kaggle Anime Face Dataset</a>.
 
-Run the Notebook:
+####Upload the dataset to Google Colab or your local environment.
 
-Open DCGAN_Anime.ipynb in Colab.
+###Run the Notebook:
 
-Run all cells to train the model and generate sample images.
+####Open DCGAN_Anime.ipynb in Colab.
 
-Using the Generator:
-After training, you can generate new images:
+####Run all cells to train the model and generate sample images.
+
+##Using the Generator:
+####After training, you can generate new images:
+```bash
 
 from tensorflow.keras.models import load_model
 import tensorflow as tf
@@ -57,3 +63,4 @@ import tensorflow as tf
 generator = load_model("DCGAN_Generator.h5")
 random_noise = tf.random.normal([10, 300])
 generated_images = generator(random_noise)
+```
