@@ -43,7 +43,7 @@ pip install tensorflow numpy matplotlib seaborn pillow
 
 3. **Dataset:**
 
-<b>Use the <a href="https://www.kaggle.com/splcher/animefacedataset">Kaggle Anime Face Dataset</a></b>
+<b><a href="https://www.kaggle.com/splcher/animefacedataset">Anime Face Dataset</a></b>
 
 4. **Upload the dataset to Google Colab or your local environment.**
 
