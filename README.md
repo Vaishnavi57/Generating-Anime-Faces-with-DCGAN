@@ -1,7 +1,7 @@
 # Anime Faces Generation with DCGAN
 
 <p align="center">
-  <img src="generated_images/sample.png" alt="Sample Anime Faces" width="400"/>
+  <img src="outputs/Screenshot 2025-09-09 183853.png" alt="Sample Anime Faces" width="400"/>
 </p>
 
 **Description:**  
