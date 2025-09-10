@@ -47,7 +47,7 @@ pip install tensorflow numpy matplotlib seaborn pillow
 
 4. **Upload the dataset to Google Colab or your local environment.**
 
-5. **Run the Notebook**
+5. **Run the Notebook with T4 GPU (CPU takes forever) **
 
 
 6. **Using the Generator:**
