@@ -15,9 +15,8 @@ This project implements a <b>Deep Convolutional Generative Adversarial Network (
 - <b>Visualization:</b> Generates and displays sample images at the end of each epoch using a Keras callback (`DCGANMonitor`).  
 - <b>Save & Load Models:</b> Trained generator models can be saved for future use.
 
-## Project Structure
 
-## Getting Started
+## Steps
 
 1. **Clone the repository** (or open the Colab notebook directly):
 
