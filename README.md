@@ -7,8 +7,6 @@
 **Description:**  
 This project implements a <b>Deep Convolutional Generative Adversarial Network (DCGAN)</b> to generate realistic anime face images. Built with <b>TensorFlow</b> and <b>Keras</b>, it demonstrates how GANs learn to produce images from random noise vectors.
 
----
-
 ## Project Overview
 
 - <b>Generator:</b> Converts random noise vectors into 64×64 RGB anime face images using Dense, Conv2DTranspose, and ReLU layers.  
@@ -17,29 +15,13 @@ This project implements a <b>Deep Convolutional Generative Adversarial Network (
 - <b>Visualization:</b> Generates and displays sample images at the end of each epoch using a Keras callback (`DCGANMonitor`).  
 - <b>Save & Load Models:</b> Trained generator models can be saved for future use.
 
----
-
 ## Project Structure
-
-
----
 
 ## Getting Started
 
 1. **Clone the repository** (or open the Colab notebook directly):
 
-```bash
-git clone https://github.com/<USERNAME>/Anime-DCGAN.git
-cd Anime-DCGAN
-```
-
 2. **Install required packages:**
-
-```bash
-pip install tensorflow numpy matplotlib seaborn pillow
-```
-
-
 
 3. **Dataset:**
 
@@ -47,18 +29,10 @@ pip install tensorflow numpy matplotlib seaborn pillow
 
 4. **Upload the dataset to Google Colab or your local environment.**
 
-5. **Run the Notebook with T4 GPU (CPU takes forever) **
-
+5. **Run the Notebook with T4 GPU (CPU takes forever).**
 
 6. **Using the Generator:**
-7. <b>After training, you can generate new images:</b>
+   
+7. **After training, you can generate new images.**
 
-```bash
 
-from tensorflow.keras.models import load_model
-import tensorflow as tf
-
-generator = load_model("DCGAN_Generator.h5")
-random_noise = tf.random.normal([10, 300])
-generated_images = generator(random_noise)
-```
