@@ -20,7 +20,7 @@ This project implements a <b>Deep Convolutional Generative Adversarial Network (
 
 1. **Clone the repository** (or open the Colab notebook directly):
 
-2. **Install required packages:**
+2. **Install required packages: Tensorflow, Keras, numpy, seaborn, matplot**
 
 3. **Dataset:**
 
